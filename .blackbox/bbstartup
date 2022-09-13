@@ -1,0 +1,4 @@
+#!/bin/bash
+bbkeys &
+nitrogen --restore &
+exec /usr/bin/blackbox
