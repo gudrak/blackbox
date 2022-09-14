@@ -1,86 +1,35 @@
 [begin] (BlackBox)
-    [submenu] (Development)
-        [exec] (Icon Browser) {gtk4-icon-browser}
-        [exec] (Micro) {xterm -e micro}
-        [exec] (Python) {xterm -e python}
-    [end]
-    [submenu] (Editors)
-        [exec] (Vi) {xterm -e vi}
-        [exec] (Vim) {xterm -e vim}
-    [end]
-    [submenu] (Graphics)
-        [exec] (LXImage) {lximage-qt}
+    [submenu] (Editor)
+        [exec] (Nano) {lxterminal -e nano}
+        [exec] (LXTerminal) {lxterminal}
+        [exec] (PCManFM File Manager) {pcmanfm}
     [end]
     [submenu] (Multimedia)
-        [exec] (ALSA mixer) {xterm -e alsamixer}
         [exec] (PulseAudio Volume Control) {pavucontrol}
     [end]
-    [submenu] (Network)
-        [exec] (Falkon) {falkon}
-        [exec] (TkVNC) {xterm -e tkvnc}
+    [submenu] (Internet)
+        [exec] (Chromium) {chromium}
     [end]
-    [submenu] (Shells)
-        [exec] (Dash) {xterm -e dash -i}
-        [exec] (GIT) {xterm -e git}
-        [exec] (LXTerminal) {lxterminal}
-        [exec] (PCManFM-Qt File Manager) {pcmanfm-qt}
-        [exec] (QTerminal) {qterminal}
-        [exec] (QTerminal drop down) {qterminal --drop}
-        [exec] (ROX) {rox}
-        [exec] (UXTerm) {uxterm}
-        [exec] (Xterm) {xterm}
-    [end]
-    [submenu] (System)
-        [submenu] (Settings)
-            [submenu] (GNOME)
-                [exec] (Advanced Network Configuration) {nm-connection-editor}
+    [submenu] (Sistema)
+        [submenu] (Configuracion)
+            [submenu] (Redes)
+                [exec] (Configuracion de redes) {nm-connection-editor}
             [end]
-            [exec] (Appearance) {lxqt-config-appearance}
-            [exec] (Brightness) {lxqt-config-brightness}
-            [exec] (Desktop) {pcmanfm-qt --desktop-pref=general}
-            [exec] (Desktop Notifications) {lxqt-config-notificationd}
-            [exec] (File Associations) {lxqt-config-file-associations}
-            [exec] (Keyboard and Mouse) {lxqt-config-input}
-            [exec] (Locale) {lxqt-config-locale}
-            [exec] (Lock Screen) {lxqt-leave --lockscreen}
-            [exec] (LXQt Configuration Center) {lxqt-config}
-            [exec] (Monitor settings) {lxqt-config-monitor}
-            [exec] (Openbox Settings) {obconf-qt}
-            [exec] (Power Management) {lxqt-config-powermanagement}
-            [exec] (Session Settings) {lxqt-config-session}
-            [exec] (Shortcut Keys) {lxqt-config-globalkeyshortcuts}
-            [exec] (Users and Groups) {lxqt-admin-user}
+            [exec] (FuzzyPKG) {fuzzypkg}
         [end]
-        [exec] (About LXQt) {lxqt-about}
-        [exec] (Hibernate) {lxqt-leave --hibernate}
-        [exec] (Htop) {xterm -e htop}
-        [exec] (Leave) {lxqt-leave}
-        [exec] (Logout) {lxqt-leave --logout}
-        [exec] (OctoXBPS) {octoxbps}
-        [exec] (OctoXBPS Notifier) {octoxbps-notifier}
-        [exec] (pstree) {xterm -e /usr/bin/pstree.x11}
-        [exec] (pstree) {xterm -e pstree}
-        [exec] (Pstree) {xterm -e pstree.x11}
-        [exec] (Reboot) {lxqt-leave --reboot}
-        [exec] (Shutdown) {lxqt-leave --shutdown}
-        [exec] (Suspend) {lxqt-leave --suspend}
         [exec] (Top) {xterm -e top}
     [end]
-    [submenu] (Utilities)
-        [exec] (LXQt File Archiver) {lxqt-archiver}
-        [exec] (SpaceFM File Search) {spacefm}
-    [end]
     [submenu] (BlackBox)
-        [submenu] (Styles) {Choose a style...}
+        [submenu] (Styles) {Estilos}
         [stylesdir] (/usr/share/blackbox/styles)
         [end]
-        [submenu] (User Styles) {Selecciona un Tema}
+        [submenu] (User Styles) {Estilos de Usuario}
         [stylesdir] (~/.blackbox/styles)
         [end]
-        [workspaces] (Workspaces)
-        [config] (Configure)
-        [reconfig] (Reconfig)
-        [restart] (Restart)
-        [exit] (Exit)
+        [workspaces] (Espacios)
+        [config] (Configurar)
+        [reconfig] (Reconfigurar)
+        [restart] (Reinicar)
+        [exit] (Salir)
     [end]
 [end]
