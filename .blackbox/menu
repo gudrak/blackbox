@@ -17,7 +17,7 @@
             [end]
             [exec] (FuzzyPKG) {fuzzypkg}
         [end]
-        [exec] (Top) {xterm -e top}
+        [exec] (Top) {lxterminal -e top}
     [end]
     [submenu] (BlackBox)
         [submenu] (Styles) {Estilos}
