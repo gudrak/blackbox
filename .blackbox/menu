@@ -1,5 +1,5 @@
 [begin] (BlackBox)
-    [submenu] (Editor)
+    [submenu] ()
         [exec] (Nano) {lxterminal -e nano}
         [exec] (LXTerminal) {lxterminal}
         [exec] (PCManFM File Manager) {pcmanfm}
@@ -15,7 +15,7 @@
             [submenu] (Redes)
                 [exec] (Configuracion de redes) {nm-connection-editor}
             [end]
-            [exec] (FuzzyPKG) {fuzzypkg}
+            [exec] (FuzzyPKG) {lxterminal -e fuzzypkg}
         [end]
         [exec] (Top) {lxterminal -e top}
     [end]
