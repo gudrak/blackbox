@@ -1,4 +1,9 @@
 #!/bin/bash
+
 bbkeys &
+
 nitrogen --restore &
+
+/usr/bin/polkit &
+
 exec /usr/bin/blackbox
