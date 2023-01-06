@@ -1,3 +1,3 @@
-session.styleFile:	/usr/share/blackbox/styles/Minimal-black
+#session.styleFile:	/usr/share/blackbox/styles/Minimal-black
 session.menuFile: ~/.blackbox/menu
 session.stylesFile: ~/.blackbox/styles/PureBlack
