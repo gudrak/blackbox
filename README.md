@@ -34,9 +34,11 @@ Despues creamos el directorio .blackbox en /home/usuario/.blackbox/ y creamos el
 
 Dentro de "~/.blackbox/"
 
-## Creamos bbstartup: * touch bbstartup
+## Creamos bbstartup: 
+* touch bbstartup
 
-## Le damos permisos: *chmod +x bbstartup
+## Le damos permisos: 
+*chmod +x bbstartup
 
 ## en ese fichero va a ir estas siguientes lineas:
 
