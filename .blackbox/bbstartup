@@ -4,6 +4,6 @@ bbkeys &
 
 nitrogen --restore &
 
-/usr/bin/polkit &
+/usr/libexec/at-spi-bus-launcher &
 
 exec /usr/bin/blackbox
