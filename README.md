@@ -38,15 +38,15 @@ Dentro de "~/.blackbox/"
 * touch bbstartup
 
 ## Le damos permisos: 
-*chmod +x bbstartup
+* chmod +x bbstartup
 
 ## en ese fichero va a ir estas siguientes lineas:
 
  
 * #!/bin/bash
-* bbkeys &
-* nitrogen --restore &
-* exec /usr/bin/blackbox
+  bbkeys &
+  nitrogen --restore &
+  exec /usr/bin/blackbox
 
 
 ## Creamos el fichero menu y dentro de el agregamos estas lineas:
