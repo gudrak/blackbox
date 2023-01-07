@@ -34,20 +34,22 @@ Despues creamos el directorio .blackbox en /home/usuario/.blackbox/ y creamos el
 
 Dentro de "~/.blackbox/"
 
-creamos bbstartup y le damos permisos "chmod +x bbstartup"
+## Creamos bbstartup: * touch bbstartup
 
-en ese fichero va a ir estas siguientes lineas:
+## Le damos permisos: *chmod +x bbstartup
+
+## en ese fichero va a ir estas siguientes lineas:
 
  
-#!/bin/bash
-bbkeys &
-nitrogen --restore &
-exec /usr/bin/blackbox
+* #!/bin/bash
+* bbkeys &
+* nitrogen --restore &
+* exec /usr/bin/blackbox
 
 
-Creamos el fichero menu y dentro de el agregamos estas lineas:
+## Creamos el fichero menu y dentro de el agregamos estas lineas:
 
-[begin] (BlackBox)
+* [begin] (BlackBox)
     [submenu] (Development)
         [exec] (Icon Browser) {gtk4-icon-browser}
         [exec] (Micro) {xterm -e micro}
