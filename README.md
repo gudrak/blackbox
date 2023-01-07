@@ -1,8 +1,8 @@
 # blackbox
 
-Antes de empezar esta es una muy basica guia para configurar blackboxwm
+## Antes de empezar esta es una muy basica guia para configurar blackboxwm
 
-es necesario tener estos paquetes: bbkeys, blackboxwm, nitrogen como minimo y algun editor de preferencia nano o micro y menumaker
+## Es necesario tener estos paquetes: bbkeys, blackboxwm, nitrogen como minimo y algun editor de preferencia nano o micro y menumaker
  
 
 
